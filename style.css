@@ -1,0 +1,157 @@
+/* General body styling */
+body.sorting {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .alg-buttons {
+    background-color: #504b4b;
+    border: none;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.dark-mode .alg-buttons:hover {
+    background-color: #504b4b;
+}
+
+
+
+/* Main sorting container */
+.sorting-container {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2px;
+}
+
+/* Bottom control container */
+.bottom-container-sorting {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Sorting buttons */
+.sorting-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Individual sorting algorithm button container */
+.sort-alg-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Buttons styling */
+.alg-buttons {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.alg-buttons:hover {
+    background-color: #0056b3;
+}
+
+/* Text container for stats */
+.text-container {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Sorting settings container */
+.sorting-settings-container {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Sliders */
+.sliderstuff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.range-style {
+    width: 150px;
+}
+
+/* Navigation container */
+.html-nav-container {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Checkbox container */
+.checkboxstuff {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Sorting navigation buttons */
+.sorting-button {
+    display: flex;
+    gap: 10px;
+}
+
+.sorting-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  .bar {
+    background-color: #488fec;
+    margin: 0 1px;
+    transition: height 0.2s, background-color 0.2s;
+  }
+  
+  .bar.sorted {
+    background-color: #3fcf1b;
+  }
+  
+  .bar.current {
+    background-color: red;
+  }
+  
